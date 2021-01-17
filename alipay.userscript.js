@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Export Alipay to Beancount
+// @name         Alipay Beancount Exporter
 // @namespace    https://github.com/w1ndy/beancount-helpers
 // @version      1.0
 // @description  Extract and export Alipay transactions to Beancount
