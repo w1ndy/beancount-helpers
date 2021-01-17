@@ -23,6 +23,7 @@ function mount() {
             if (!balanceChecked) {
                 const bal = parseFloat(row.querySelector('td[field="CARDBAL"]').innerText);
                 transactions.unshift(`${date} balance Assets: ${bal} CNY`);
+                balanceChecked = true;
             }
 
             let transaction = `${date} * "${name}"\n`;
