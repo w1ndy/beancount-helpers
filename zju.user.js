@@ -22,7 +22,7 @@ function mount() {
             const amount = parseFloat(row.querySelector('td[field="TRANAMT"]').innerText);
             if (!balanceChecked) {
                 const bal = parseFloat(row.querySelector('td[field="CARDBAL"]').innerText);
-                transactions.unshift(`${date} balance Assets: ${bal} CNY`);
+                transactions.unshift(`${(new Date((new Date(date)).getTime() + 86400000)).toISOString().split('T')[0]} balance Assets: ${bal} CNY`);
                 balanceChecked = true;
             }
 
