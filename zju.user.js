@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Zhejiang University Beancount Exporter
 // @namespace    https://github.com/w1ndy/beancount-helpers
-// @version      1.1
+// @version      1.1.1
 // @description  Extract and export Zhejiang University transactions to Beancount
 // @author       w1ndy
-// @match        http://mapp.zju.edu.cn/_web/_customizes/pc_logistics/card/oneCardSolution.html
+// @match        http://mapp.zju.edu.cn/_web/_customizes/pc_logistics/card/oneCardSolution.html*
 // @grant        GM_setClipboard
 // ==/UserScript==
 
